@@ -10,9 +10,8 @@
 Customer churn prediction is a critical aspect for businesses aiming to retain their customer base and enhance profitability. This project leverages machine learning techniques to predict whether a customer is likely to churn, enabling proactive retention strategies. By analyzing customer behavior and transactional data, the models identify patterns that indicate the likelihood of churn, providing valuable insights for decision-making.
 
 ## 🗂 Table of Contents
-
 - [🌟 Overview](#-overview)
-- [📊 Dataset](#-dataset)
+- [📊 Dataset Description](#-dataset-description)
 - [🛠 Data Preprocessing](#-data-preprocessing)
 - [🤖 Modeling](#-modeling)
   - [CatBoost](#catboost)

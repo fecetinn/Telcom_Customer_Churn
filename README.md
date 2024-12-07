@@ -63,7 +63,7 @@ This dataset contains demographic, account, and service information about custom
 
 
 
-You can find this data set in kaggle!
+You can also find this data set in kaggle!
 
 ## 🛠 Data Preprocessing
 

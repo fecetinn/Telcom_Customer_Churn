@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Data Science](https://img.shields.io/badge/Data_Science-Python%20%7C%20ML%20%7C%20AI-brightgreen)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue.svg)](https://www.kaggle.com/yourusername)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue.svg)](https://www.kaggle.com/code/fatiherencetin/telco-customer-churn)
 
 ## 🌟 Overview
 
@@ -26,21 +26,43 @@ Customer churn prediction is a critical aspect for businesses aiming to retain t
 - [📄 License](#-license)
 - [📫 Contact](#-contact)
 
-## 📊 Dataset
+## 📊 Dataset Description
 
-The dataset used in this project contains customer information, including demographics, account details, and behavioral data. Each record represents a customer, with the target variable indicating whether the customer has churned (`1`) or not (`0`). The dataset includes features such as:
+The dataset used in this project contains customer information, including demographics, account details, and behavioral data. Each record represents a customer, with the target variable indicating whether the customer has churned (`1`) or not (`0`).
 
-- **CustomerID**: Unique identifier for each customer.
-- **Age**: Age of the customer.
-- **Gender**: Gender of the customer.
-- **Tenure**: Number of months the customer has stayed with the company.
-- **Balance**: Account balance.
-- **Products**: Number of products the customer is using.
-- **CreditScore**: Credit score of the customer.
-- **Geography**: Country of residence.
-- **HasCrCard**: Whether the customer has a credit card.
-- **IsActiveMember**: Whether the customer is an active member.
-- **EstimatedSalary**: Estimated salary of the customer.
+The dataset consists of **7043 observations** and **21 variables** with a total size of **977.5 KB**. Below is an overview of the features:
+
+| **Variable**        | **Description**                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------|
+| `CustomerId`        | Unique ID for each customer.                                                                          |
+| `Gender`            | Gender of the customer.                                                                               |
+| `SeniorCitizen`     | Indicates whether the customer is a senior citizen (1: Yes, 0: No).                                   |
+| `Partner`           | Indicates whether the customer has a partner (Yes, No).                                              |
+| `Dependents`        | Indicates whether the customer has dependents (Yes, No).                                             |
+| `tenure`            | Number of months the customer has stayed with the company.                                           |
+| `PhoneService`      | Indicates whether the customer has a phone service (Yes, No).                                        |
+| `MultipleLines`     | Indicates whether the customer has multiple phone lines (Yes, No, No phone service).                 |
+| `InternetService`   | Customer's internet service provider (DSL, Fiber optic, No).                                         |
+| `OnlineSecurity`    | Indicates whether the customer has online security (Yes, No, No internet service).                   |
+| `OnlineBackup`      | Indicates whether the customer has online backup (Yes, No, No internet service).                     |
+| `DeviceProtection`  | Indicates whether the customer has device protection (Yes, No, No internet service).                 |
+| `TechSupport`       | Indicates whether the customer has technical support (Yes, No, No internet service).                 |
+| `StreamingTV`       | Indicates whether the customer has streaming TV service (Yes, No, No internet service).              |
+| `StreamingMovies`   | Indicates whether the customer has streaming movies service (Yes, No, No internet service).          |
+| `Contract`          | Type of contract the customer has (Month-to-month, One year, Two years).                             |
+| `PaperlessBilling`  | Indicates whether the customer uses paperless billing (Yes, No).                                     |
+| `PaymentMethod`     | Customer's payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)). |
+| `MonthlyCharges`    | Amount charged to the customer on a monthly basis.                                                   |
+| `TotalCharges`      | Total amount charged to the customer.                                                                |
+| `Churn`             | Indicates whether the customer churned (Yes, No).                                                   |
+
+---
+
+### **Dataset Story**
+
+This dataset contains demographic, account, and service information about customers and is used to predict whether a customer will churn. Each observation represents a customer, and the `Churn` variable serves as the target variable. By analyzing the features, this dataset aims to provide insights into the patterns and factors influencing customer retention.
+
+
 
 You can find this data set in kaggle!
 

@@ -24,6 +24,7 @@ Customer churn prediction is a critical aspect for businesses aiming to retain t
 - [🔮 Future Work](#-future-work)
 - [📄 License](#-license)
 - [📫 Contact](#-contact)
+- [📚 Additional Resources](#-additional-resources)
 
 ## 📊 Dataset Description
 
